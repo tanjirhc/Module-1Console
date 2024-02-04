@@ -2,9 +2,9 @@
 string[] arrStr = { "ASP", "MVC", "CORE" };
 
 
-for (int i = 0; i <= arrStr.Length; i++)
+for (int i = 0; i < arrStr.Length; i++)
 {
-    Console.WriteLine("Ok"+i.ToString());
+    Console.WriteLine("Ok" + arrStr[i].ToString());
 }
 
 Console.ReadLine();
