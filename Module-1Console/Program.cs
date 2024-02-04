@@ -3,5 +3,5 @@ int x = 5;
 int y = 6;
 
 int z = x + y;
-Console.WriteLine("My value is : "+z);
+Console.WriteLine("My value is : "+z.ToString());
 Console.ReadLine();
