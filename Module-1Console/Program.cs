@@ -1,11 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
+string[] arrStr = { "ASP", "MVC", "CORE" };
 
 
-int i = 0;
-while(i < 5)
+for (int i = 0; i <= arrStr.Length; i++)
 {
-    Console.WriteLine(i.ToString());
-    i++;
+    Console.WriteLine("Ok"+i.ToString());
 }
 
 Console.ReadLine();
