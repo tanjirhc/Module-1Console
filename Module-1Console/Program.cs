@@ -1,7 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int x = 5;
-int y = 6;
+int x;
+int y;
+
+Console.WriteLine("Please input first item");
+x = Convert.ToInt16(Console.ReadLine());
+
+Console.WriteLine("Please input second item");
+y = Convert.ToInt16(Console.ReadLine());
 
 int z = x + y;
-Console.WriteLine("My value is : "+z.ToString());
+
+Console.WriteLine("Output sum: " + z.ToString());
+
 Console.ReadLine();
